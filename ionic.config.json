@@ -1,6 +1,6 @@
 {
   "name": "emwareapp",
-  "app_id": "",
+  "app_id": "0260e2e3",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
