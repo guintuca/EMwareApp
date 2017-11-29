@@ -1,17 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Login
+      EMware
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
+  <h2>Member Login</h2>
+
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
     <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
+      <ion-label color="primary">E-mail</ion-label>
+      <ion-input placeholder="Enter E-mail Here"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary">Password</ion-label>
+      <ion-input placeholder="Enter Password Here"></ion-input>
     </ion-item>
   </ion-list>
+
+  <button ion-button full color="primary">Login</button>
+
+  <p>
+    Don't have an account? Click the Sign Up button below to make an account with us!
+  </p>
+
+  <button ion-button full color="primary">Sign Up</button>
+   
 </ion-content>
