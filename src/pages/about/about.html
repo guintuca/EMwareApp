@@ -38,30 +38,27 @@
 		<img src="assets/imgs/cise_logo.PNG"/>
 	</ion-card>
 
-	<ion-card>
-		<ion-card-header color="primary">
-			Follow Us!
-		</ion-card-header>
+	<ion-fab right bottom>
+		<button ion-fab color="primary">
+			<ion-icon name="md-share"></ion-icon>
+		</button>
 
-		<ion-list>
-			<button ion-item>
+		<ion-fab-list side="top">
+			<button ion-fab color="primary">
 				<ion-icon name="logo-facebook"></ion-icon>
-				Facebook
 			</button>
-		</ion-list>
-
-		<ion-list>
-			<button ion-item>
+			<button ion-fab color="primary">
 				<ion-icon name="logo-twitter"></ion-icon>
-				Twitter
 			</button>
-		</ion-list>
+		</ion-fab-list>
 
-		<ion-list>
-			<button ion-item>
+		<ion-fab-list side="left">
+			<button ion-fab color="primary">
 				<ion-icon name="logo-linkedin"></ion-icon>
-				LinkedIn
 			</button>
-		</ion-list>
-	</ion-card>
+			<button ion-fab color="primary">
+				<ion-icon name="logo-github"></ion-icon>
+			</button>
+		</ion-fab-list>
+	</ion-fab>
 </ion-content>
