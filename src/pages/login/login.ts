@@ -13,6 +13,28 @@ export class LoginPage {
 
   }
 
+  showConfirm() {
+  	let confirm = this.alertCtrl.create({
+  		title: '"EMware" Would Like to Send You Notifications',
+  		message: 'Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.',
+  		buttons: [
+  			{
+  				text: 'Disagree',
+  				handler: () => {
+  					console.log('Disagree clicked');
+  				}
+  			},
+  			{
+  				text: 'Agree',
+  				handler: () => {
+  					console.log('Agree clicked');
+  				}
+  			}
+  		],
+  	});
+  	confirm.present()
+  }
+
   showPrompt() {
   	let prompt = this.alertCtrl.create({
   		title: 'Sign Up',
