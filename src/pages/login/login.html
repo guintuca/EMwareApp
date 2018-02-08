@@ -12,17 +12,21 @@
   	<div class="ion-list">
   		<ion-list>
     		<ion-item>
-      		<ion-label color="primary" class="input-label">E-mail</ion-label>
+      		<ion-label color="primary">E-mail</ion-label>
       		<ion-input placeholder="Enter E-mail Here" type="text" ng-model="loginData.username"></ion-input>
     		</ion-item>
 
     		<ion-item>
-      		<ion-label color="primary" class="input-label">Password</ion-label>
+      		<ion-label color="primary">Password</ion-label>
       		<ion-input placeholder="Enter Password Here" type="password" ng-model="loginData.password"></ion-input>
     		</ion-item>
   		</ion-list>
+
+  		<ion-item>
+  			<button ion-button medium block color="primary" type="submit">Login</button>
+  		</ion-item>
+
   	</div>
-  	<button ion-button medium block color="primary" type="submit" (click)="showConfirm()">Login</button>
 	</form>
 
 
